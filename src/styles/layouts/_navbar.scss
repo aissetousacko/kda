@@ -1,0 +1,17 @@
+@import '../utils/variables';
+
+.navbar {
+  width: auto;
+  background-color: $gray3;
+  border-radius: 50px;
+  display: flex;
+
+  &__item {
+    padding: 24px 32px;
+  }
+}
+
+.active {
+  background-color: #fff;
+  border-radius: 50px;
+}
