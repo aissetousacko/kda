@@ -1,0 +1,15 @@
+//utils
+@use './utils/variables';
+//base
+@use './base/base';
+@use './base/typography';
+
+//layouts
+@use './layouts/navbar';
+@use './layouts/footer';
+
+//components
+@use './components/card';
+
+//pages
+@use './main.scss';

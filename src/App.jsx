@@ -1,8 +1,8 @@
 function App() {
-
   return (
     <div className="home">
-      Hello World
+      <h1>Hello World</h1>
+      <h2>WELCOME!</h2>
     </div>
   )
 }
