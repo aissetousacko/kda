@@ -2,13 +2,20 @@ import logo from './assets/logo_black.png'
 import darkIcon from './assets/icons/icon_dark.png'
 import arrowIcon from './assets/icons/icon_arrow.png'
 import bannerHome from './assets/banner_home.png'
+// import bannerHome from './assets/banner_home-2.png'
 import Navbar from './components/Navbar'
 
 function App() {
+  window.addEventListener('scroll', function () {
+    let header = this.document.querySelector('.header')
+    header.classList.toggle('sticky', this.window.scrollY > 0)
+  })
+
   return (
     <div className="home">
+      {/* <div className="dark-rect"></div> */}
       <div className="header">
-        <img src={logo} alt="Logo K/DA " className="header__img" />
+        <img src={logo} alt="Logo K/DA " className="header__logo" />
 
         <Navbar />
 
