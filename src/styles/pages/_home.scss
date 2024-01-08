@@ -1,6 +1,14 @@
 @import '../utils/variables';
 
 .home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+  }
+
   &__banner {
     position: relative;
     height: 100%;
@@ -22,16 +30,31 @@
   }
 
   &__listen {
-    padding: 20px 88px;
+    // padding: 20px 88px;
+    width: 90%;
     margin-bottom: 62px;
-    h1 {
-      text-align: center;
-    }
+    // h1 {
+    //   text-align: center;
+    // }
 
     &-icons {
       margin-top: 36px;
       display: flex;
       justify-content: space-around;
+    }
+  }
+
+  &__last-video {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 62px;
+
+    iframe {
+      margin-top: 36px;
+      width: 90%;
+      height: 552px;
     }
   }
 }
