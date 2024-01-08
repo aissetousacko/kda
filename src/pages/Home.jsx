@@ -1,20 +1,24 @@
-// import logo from '../assets/logo_black.png'
-// import darkIcon from '../assets/icons/icon_dark.png'
 import arrowIcon from '../assets/icons/icon_arrow.png'
 import bannerHome from '../assets/banner_home-3.png'
+import logoBanner from '../assets/logo_banner.png'
 
 const Home = () => {
-  window.addEventListener('scroll', function () {
-    let header = this.document.querySelector('.header')
-    header.classList.toggle('sticky', this.window.scrollY > 0)
-  })
-
   return (
     <div className="home">
-      {/* <div className="dark-rect"></div> */}
+      <div className="dark-rect"></div>
 
       <div className="home__banner">
-        <img src={bannerHome} alt="Banner Home page" />
+        <img
+          src={bannerHome}
+          alt="Banner Home page"
+          className="home__img--girls"
+        />
+
+        <img
+          src={logoBanner}
+          alt="K/DA White logo"
+          className="home__img--logo"
+        />
 
         <button className="listen">
           Listen them now

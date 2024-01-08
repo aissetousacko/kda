@@ -3,23 +3,40 @@
 .home {
   &__banner {
     position: relative;
-    // padding-top: 158px;
     height: 100%;
 
-    img {
+    // img {
+    //   width: 100%;
+    //   height: 100%;
+    //   object-fit: fill;
+    // }
+  }
+
+  &__img {
+    &--girls {
+      position: relative;
       width: 100%;
       height: 100%;
       object-fit: fill;
+      z-index: -1;
+    }
+    &--logo {
+      position: absolute;
+      top: 25%;
+      left: 15%;
     }
   }
 }
 
-// .dark-rect {
-//   position: absolute;
-//   background-color: rgba(0, 0, 0, 0.24);
-//   width: 100vw;
-//   height: 100%;
-// }
+.dark-rect {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.24);
+  width: 100%;
+  height: 113%;
+}
 
 .listen {
   background-color: #fff;
