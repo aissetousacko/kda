@@ -9,12 +9,14 @@
 
   &__item {
     padding: 24px 32px;
+    color: #444444;
   }
 }
 
 .active {
   background-color: #fff;
   border-radius: 50px;
+  color: #000000;
 }
 
 // @media (max-width: 1024px) {

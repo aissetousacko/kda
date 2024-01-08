@@ -4,12 +4,6 @@
   &__banner {
     position: relative;
     height: 100%;
-
-    // img {
-    //   width: 100%;
-    //   height: 100%;
-    //   object-fit: fill;
-    // }
   }
 
   &__img {
@@ -26,16 +20,20 @@
       left: 15%;
     }
   }
-}
 
-.dark-rect {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.24);
-  width: 100%;
-  height: 113%;
+  &__listen {
+    padding: 20px 88px;
+    margin-bottom: 62px;
+    h1 {
+      text-align: center;
+    }
+
+    &-icons {
+      margin-top: 36px;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
 }
 
 .listen {
