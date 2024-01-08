@@ -8,9 +8,12 @@
 @use './layouts/navbar';
 @use './layouts/footer';
 @use './layouts/switch-btn';
+@use './layouts/header';
 
 //components
 @use './components/card';
 
 //pages
+@use './pages/home';
+
 @use './main.scss';
