@@ -1,5 +1,6 @@
 import arrowIcon from '../assets/icons/icon_arrow.png'
 import bannerHome from '../assets/banner_home-3.png'
+import { Link } from 'react-router-dom'
 // import appleIcon from '../assets/icons/icon_apple.png'
 
 const Home = () => {
@@ -21,7 +22,11 @@ const Home = () => {
       <div className="home__listen">
         <h1>LISTEN ON</h1>
         <div className="home__listen-icons">
-          <div className="icons">
+          <Link
+            to="https://music.apple.com/us/artist/k-da/1439420229"
+            className="icons"
+            target="_blank"
+          >
             <svg
               width="116"
               height="114"
@@ -73,9 +78,13 @@ const Home = () => {
                 </filter>
               </defs>
             </svg>
-          </div>
+          </Link>
 
-          <div className="icons">
+          <Link
+            to="https://open.spotify.com/intl-fr/artist/4gOc8TsQed9eqnqJct2c5v"
+            className="icons"
+            target="_blank"
+          >
             <svg
               width="116"
               height="114"
@@ -127,9 +136,13 @@ const Home = () => {
                 </filter>
               </defs>
             </svg>
-          </div>
+          </Link>
 
-          <div className="icons">
+          <Link
+            to="https://music.youtube.com/channel/UCDsvjvBRosWw8F5eynK0HTQ"
+            className="icons"
+            target="_blank"
+          >
             <svg
               width="116"
               height="114"
@@ -181,9 +194,13 @@ const Home = () => {
                 </filter>
               </defs>
             </svg>
-          </div>
+          </Link>
 
-          <div className="icons">
+          <Link
+            to="https://www.deezer.com/fr/artist/52823842"
+            className="icons"
+            target="_blank"
+          >
             <svg
               width="116"
               height="114"
@@ -235,7 +252,7 @@ const Home = () => {
                 </filter>
               </defs>
             </svg>
-          </div>
+          </Link>
         </div>
       </div>
 
@@ -255,7 +272,11 @@ const Home = () => {
       <div className="home__follow">
         <h1>FOLLOW US</h1>
         <div className="home__follow-icons">
-          <div className="icons">
+          <Link
+            to="https://www.instagram.com/kda_music/"
+            className="icons"
+            target="_blank"
+          >
             <svg
               width="114"
               height="112"
@@ -307,9 +328,13 @@ const Home = () => {
                 </filter>
               </defs>
             </svg>
-          </div>
+          </Link>
 
-          <div className="icons">
+          <Link
+            to="https://twitter.com/KDA_MUSIC"
+            className="icons"
+            target="_blank"
+          >
             <svg
               width="114"
               height="112"
@@ -361,9 +386,13 @@ const Home = () => {
                 </filter>
               </defs>
             </svg>
-          </div>
+          </Link>
 
-          <div className="icons">
+          <Link
+            to="https://www.tiktok.com/@kda_music?lang=en"
+            className="icons"
+            target="_blank"
+          >
             <svg
               width="114"
               height="112"
@@ -415,7 +444,7 @@ const Home = () => {
                 </filter>
               </defs>
             </svg>
-          </div>
+          </Link>
         </div>
       </div>
     </div>
