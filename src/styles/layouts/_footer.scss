@@ -2,3 +2,11 @@ footer {
   text-align: center;
   padding: 120px 96px 48px 96px;
 }
+
+@media (max-width: 480px) {
+  footer {
+    font-size: 12px;
+    letter-spacing: 0.72px;
+    padding: 40px 12px;
+  }
+}

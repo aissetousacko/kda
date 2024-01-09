@@ -10,6 +10,7 @@
   &__item {
     padding: 24px 32px;
     color: #444444;
+    width: fit-content;
   }
 }
 
@@ -19,10 +20,33 @@
   color: #000000;
 }
 
-// @media (max-width: 1024px) {
-//   .navbar {
-//     &__item {
-//       padding: 24px 32px;
-//     }
-//   }
-// }
+@media (max-width: 1024px) {
+  .navbar {
+    &__item {
+      padding: 24px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    // transform: translate(-50%, -50%);
+    transform: translateX(-50%);
+
+    &__item {
+      // padding: 16px 20px;
+      font-size: 16px;
+
+      /****/
+      display: flex;
+      width: 82px;
+      padding: 16px 12px;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+    }
+  }
+}
