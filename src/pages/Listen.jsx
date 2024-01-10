@@ -264,6 +264,7 @@ const Listen = () => {
       <div className="listen__seraphine">
         <h1>SPECIAL GUEST</h1>
         <h1>SERAPHINE</h1>
+
         <div className="listen__seraphine-presentation">
           <div className="listen__seraphine-img">
             <img src={seraphine} alt="Seraphine" />
@@ -312,13 +313,14 @@ const Listen = () => {
               </svg>
             </div>
 
-            <div className="listen__seraphine-textbox">
+            <div className="textbox">
               <p>
                 K/DA&apos;s new collaborator is called Seraphine, a dynamic and
                 lively young producer and composer. Music has always been a way
-                for her to connect with others and herself. And with K/DA, she's
-                determined to reach new heights. Sincere and generous, Séraphine
-                would like to unite the world through her art.
+                for her to connect with others and herself. And with K/DA,
+                she&apos;s determined to reach new heights. Sincere and
+                generous, Séraphine would like to unite the world through her
+                art.
               </p>
             </div>
 
