@@ -38,11 +38,11 @@
     //   text-align: center;
     // }
 
-    &-icons {
-      margin-top: 36px;
-      display: flex;
-      justify-content: space-around;
-    }
+    // &-icons {
+    //   margin-top: 36px;
+    //   display: flex;
+    //   justify-content: space-around;
+    // }
   }
 
   &__last-video {
@@ -84,7 +84,7 @@
   }
 }
 
-.listen {
+.listen-btn {
   background-color: #fff;
   border-radius: 50px;
   padding: 16px;
@@ -101,13 +101,13 @@
 }
 
 @media (max-width: 1024px) {
-  .listen {
+  .listen-btn {
     left: 40%;
   }
 }
 
 @media (max-width: 480px) {
-  .listen {
+  .listen-btn {
     padding: 12px 10px;
     left: 50%;
     // transform: translate(-50%, -50%);

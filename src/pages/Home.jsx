@@ -13,7 +13,7 @@ const Home = () => {
           className="home__img--girls"
         />
 
-        <button className="listen">
+        <button className="listen-btn">
           Listen them now
           <img src={arrowIcon} alt="Arrow icon" />
         </button>
@@ -21,7 +21,7 @@ const Home = () => {
 
       <div className="home__listen">
         <h1>LISTEN ON</h1>
-        <div className="home__listen-icons">
+        <div className="listen-icons">
           <Link
             to="https://music.apple.com/us/artist/k-da/1439420229"
             className="icons"
