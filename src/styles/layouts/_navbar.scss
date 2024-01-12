@@ -97,6 +97,16 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .navbar-girls {
+    flex-direction: row;
+    margin: 0 auto;
+    bottom: 0;
+    top: 100%;
+    right: 30%;
+  }
+}
+
 @media (max-width: 768px) {
   .navbar__link {
     padding: 20px 24px;
@@ -106,7 +116,7 @@
 @media (max-width: 480px) {
   .navbar {
     position: fixed;
-    bottom: 10%;
+    bottom: 5%;
     left: 50%;
     // transform: translate(-50%, -50%);
     transform: translateX(-50%);
@@ -124,6 +134,11 @@
 
     .navbar__link {
       padding: 16px 20px;
+    }
+
+    &-girls {
+      left: 25%;
+      transform: translateX(-50%);
     }
   }
 }
