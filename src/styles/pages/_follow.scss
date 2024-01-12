@@ -1,0 +1,18 @@
+.follow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+
+  &__img {
+    padding: 50px 0;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+  }
+}
