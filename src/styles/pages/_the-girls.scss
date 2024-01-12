@@ -1,0 +1,50 @@
+.the-girls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.hide {
+  display: none;
+}
+
+.ahri,
+.akali,
+.evelynn,
+.kaisa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  position: relative;
+
+  &__description {
+    position: absolute;
+    top: 0;
+    // left: 65%;
+    // width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 96px;
+  }
+}
+
+.ahri__description {
+  left: 65%;
+  width: 40%;
+}
+.akali__description {
+  left: 55%;
+  width: 35%;
+}
+.evelynn__description {
+  left: 60%;
+  width: 45%;
+}
+.kaisa__description {
+  left: 70%;
+  width: 45%;
+}
