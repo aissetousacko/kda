@@ -13,10 +13,10 @@ const Home = () => {
           className="home__img--girls"
         />
 
-        <button className="listen-btn">
+        <Link to="/listen" className="listen-btn">
           Listen them now
           <img src={arrowIcon} alt="Arrow icon" />
-        </button>
+        </Link>
       </div>
 
       <div className="home__listen">
