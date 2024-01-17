@@ -1,5 +1,5 @@
 .theme-light {
-  --background-image: url('src/assets/background_light.jpg');
+  --background-image: url('../assets/background_light.jpg');
   --color-navbar-bg: rgba(255, 255, 255, 0.36);
   --color-tab-bg: rgb(255, 255, 255);
   --color-tab-girl-bg: rgb(255, 255, 255);
@@ -11,7 +11,7 @@
 }
 
 .theme-dark {
-  --background-image: url('src/assets/background_dark.jpg');
+  --background-image: url('../assets/background_dark.jpg');
   --color-navbar-bg: rgba(255, 255, 255, 0.25);
   --color-tab-bg: rgba(255, 255, 255, 0.3);
   --color-tab-girl-bg: rgb(0, 0, 0);
