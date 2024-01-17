@@ -1,3 +1,27 @@
+.theme-light {
+  --background-image: url('src/assets/background_light.jpg');
+  --color-navbar-bg: rgba(255, 255, 255, 0.36);
+  --color-tab-bg: rgb(255, 255, 255);
+  --color-tab-girl-bg: rgb(255, 255, 255);
+  --color-text: rgb(0, 0, 0);
+  --color-textbox: rgba(255, 255, 255, 0.7);
+  --currentColor: rgb(0, 0, 0);
+  --color-navbar: rgba(92, 92, 92);
+  --boxshadow: box-shadow: 0px 4px 16px 2px rgb(149, 179, 235);
+}
+
+.theme-dark {
+  --background-image: url('src/assets/background_dark.jpg');
+  --color-navbar-bg: rgba(255, 255, 255, 0.25);
+  --color-tab-bg: rgba(255, 255, 255, 0.3);
+  --color-tab-girl-bg: rgb(0, 0, 0);
+  --color-text: rgb(255, 255, 255);
+  --color-textbox: rgba(0, 0, 0, 0.7);
+  --currentColor: rgb(255, 255, 255);
+  --color-navbar: rgba(187, 187, 187, 1);
+  --boxshadow: box-shadow: 0px 4px 16px 2px rgba(0, 0, 0, 0.25);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -6,18 +30,21 @@
 
 body {
   background-color: #fff;
-  background-image: url('src/assets/background_light.jpg');
+  background-image: var(--background-image);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: auto;
   height: auto;
+  color: var(--color-text);
 }
 
 li {
   list-style-type: none;
+  color: var(--currentColor);
 }
 
 a {
   text-decoration: none;
+  color: var(--currentColor);
 }

@@ -5,6 +5,9 @@
   justify-content: space-around;
 }
 
+.icons svg {
+  color: var(--currentColor);
+}
 @media (max-width: 480px) {
   .icons svg {
     width: 60px;

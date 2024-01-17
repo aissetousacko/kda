@@ -1,15 +1,15 @@
 @import '../utils/variables';
 
 .active {
-  background-color: #fff;
+  background-color: var(--color-tab-bg);
   border-radius: 50px;
-  color: #000000 !important;
+  color: var(--color-text) !important;
   padding: 24px 32px;
 }
 
 .active-girl {
   svg {
-    background-color: #fff;
+    background-color: var(--color-tab-girl-bg);
     border-radius: 20px;
     // width: 86px;
     // height: 86px;
@@ -22,7 +22,7 @@
 
 .navbar {
   width: max-content;
-  background-color: $gray3;
+  background-color: var(--color-navbar-bg);
   border-radius: 50px;
   display: flex;
   justify-content: flex-end;
@@ -46,7 +46,7 @@
   }
 
   &__link {
-    color: #444444;
+    color: var(--color-navbar);
     width: fit-content;
     height: 100%;
     display: flex;

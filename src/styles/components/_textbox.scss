@@ -7,8 +7,8 @@
   gap: 8px;
   padding: 40px;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.7);
-  box-shadow: 0px 4px 16px 2px $color-primary;
+  background: var(--color-textbox);
+  box-shadow: var(--boxshadow);
 
   p {
     letter-spacing: 1.12px;

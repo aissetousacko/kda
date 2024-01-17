@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin: 0 auto;
+  margin: 80px auto;
   height: 75vh;
 
   &__img {
@@ -37,6 +37,7 @@
 
 @media (max-width: 480px) {
   .follow {
+    margin: 0 auto;
     &__img {
       padding: 65px 10px;
     }
