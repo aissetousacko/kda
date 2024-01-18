@@ -1,5 +1,6 @@
 import arrowIcon from '../assets/icons/icon_arrow.png'
 import bannerHome from '../assets/banner_home-3.png'
+import bannerDiscover from '../assets/banner_discover.png'
 import { Link } from 'react-router-dom'
 // import appleIcon from '../assets/icons/icon_apple.png'
 
@@ -268,6 +269,26 @@ const Home = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           ></iframe>
+        </div>
+      </div>
+
+      <div className="home__discover">
+        <h1>THE GIRLS</h1>
+        <div className="home__discover-content">
+          <div className="home__discover-img">
+            <img src={bannerDiscover} alt="The girls" />
+          </div>
+          <div className="home__discover-description">
+            <p>
+              Individually unique, together unstoppable! Get ready to be
+              mesmerized as we present the sensational stars of K/DA – where
+              harmony meets individuality, and talent shines as one!
+            </p>
+            <Link to="/the-girls" className="home__discover-button">
+              Discover them now
+              <img src={arrowIcon} alt="Arrow icon" />
+            </Link>
+          </div>
         </div>
       </div>
 
