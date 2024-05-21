@@ -1,8 +1,20 @@
-# React + Vite
+<p align=center>
+  <img src="/public/logo_black.png" alt="Logo K/DA" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Presentation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+K/DA is a website that introduces the band K/DA, which is a music band composed of characters from the game League of Legends. <br/>
+
+[View the site](https://kda-sand.vercel.app/)
+
+## Installing the app
+
+- Run the `yarn install` or `npm install` command will allow you to install the dependencies
+- Run the `yarn start` or `npm start` command will allow you to run the application on http://localhost:3000
+
+## Author
+
+Aïssetou SACKO
